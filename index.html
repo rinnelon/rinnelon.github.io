@@ -13,11 +13,11 @@
       color: #2e2e2e;
     }
     header {
-      background-image: url('BWrVaTWyc35n2zttkkZSx.jpeg'); /* Your uploaded image */
+      background-image: url('BWrVaTWyc35n2zttkkZSx.jpeg');
       background-size: cover;
       background-position: center;
       position: relative;
-      padding: 120px 20px;
+      padding: 160px 20px 120px;
       text-align: center;
       color: white;
     }
@@ -28,20 +28,32 @@
       background-color: rgba(0, 0, 0, 0.5);
       z-index: 0;
     }
+    .logo {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      z-index: 2;
+    }
+    .logo img {
+      height: 60px;
+      width: auto;
+    }
     header h1,
     header p {
       position: relative;
       z-index: 1;
       text-shadow: 2px 2px 5px #000000aa;
+      margin: 0;
     }
     header h1 {
       font-size: 3.5em;
       font-weight: 700;
-      margin-bottom: 10px;
+      margin-top: 20px;
     }
     header p {
       font-size: 1.5em;
       font-weight: 400;
+      margin-top: 15px;
     }
     section {
       padding: 60px 20px;
@@ -76,6 +88,9 @@
 <body>
 
 <header>
+  <div class="logo">
+    <img src="rinnelon-logo.png" alt="Rinnelon Logo">
+  </div>
   <h1>Rinnelon Organics</h1>
   <p>Purely grown from the heart of Coorg—where the mountains breathe life into every bean and spice.</p>
 </header>
@@ -84,9 +99,9 @@
   <h2>What We Grow</h2>
   <p>Rinnelon specializes in cultivating organic Arabica and Robusta coffee, handpicked Black Pepper, and buttery Avocados—nurtured at high elevation in the lush forests of Coorg, India. We believe in sustainable farming, forest preservation, and premium produce for conscious distributors.</p>
   <div class="grid">
-    <img src="https://images.unsplash.com/photo-1586998738082-f805d7c54b1b" alt="Arabica Coffee"/>
-    <img src="https://images.unsplash.com/photo-1631345256918-67eaa66a9c7e" alt="Black Pepper"/>
-    <img src="https://images.unsplash.com/photo-1568638533389-23f77c83ff39" alt="Avocados"/>
+    <img src="images/coffee.jpg" alt="Arabica Coffee"/>
+    <img src="images/pepper.jpg" alt="Black Pepper"/>
+    <img src="images/avocado.jpg" alt="Avocados"/>
   </div>
 </section>
 
